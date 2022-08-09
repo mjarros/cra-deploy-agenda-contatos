@@ -1,0 +1,40 @@
+.header {
+
+    background-color: #134563;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 10vh;
+
+    padding-left: 45vw;
+    padding-right: 3vw;
+
+}
+
+.header h1 {
+    
+    font-family: Rokkitt;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color : #FFFFFF;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+.header img {
+
+    align-self:center;
+    justify-self: flex-end;
+
+    cursor: pointer;
+
+}

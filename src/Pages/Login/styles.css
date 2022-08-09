@@ -1,0 +1,77 @@
+.container-login {
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagem-login {
+    background-image: url('../../Assets/Images/login_imagem.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.container-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+}
+
+.box-cadastro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.box-cadastro h1 {
+
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 4vh;
+}
+
+.box-cadastro h3 {
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    margin-bottom: 1.5vh;
+}
+
+.box-cadastro-footer {
+    align-self: center;
+    margin-top: 8vh;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.box-cadastro-footer strong{
+
+    margin-left: 0.5vw;
+    cursor: pointer;
+    color: #1972A8;
+}
