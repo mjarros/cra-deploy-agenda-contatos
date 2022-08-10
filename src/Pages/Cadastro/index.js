@@ -76,7 +76,7 @@ function Cadastro() {
               color={"white"}
               backgroundColor={"#04C45C"}
               marginTop={"6vh"}
-              width={"49.5ch"}
+              width={"100%"}
               type={"submit"}
             />
 
@@ -85,7 +85,7 @@ function Cadastro() {
               color={"white"}
               backgroundColor={"#FB0615A6"}
               marginTop={"1vh"}
-              width={"49.5ch"}
+              width={"100%"}
               type={"button"}
               onClick={() => handleCancel()}
             />

@@ -11,7 +11,7 @@ export default function InputLoginECadastro({
   return (
     <Box
       sx={{
-        "& > :not(style)": { m: 1, ml: 0, width: "45ch" },
+        "& > :not(style)": { m: 1, ml: 0, width: "100%" },
       }}
       noValidate
       autoComplete="off"

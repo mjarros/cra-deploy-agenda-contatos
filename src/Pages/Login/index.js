@@ -75,7 +75,7 @@ function Login() {
               backgroundColor={"#04C45C"}
               marginTop={"6vh"}
               type={"submit"}
-              width={"49.5ch"}
+              width={"100%"}
             />
           </form>
 

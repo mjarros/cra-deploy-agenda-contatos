@@ -38,3 +38,11 @@
     cursor: pointer;
 
 }
+
+@media (max-width: 1000px) {
+    .header {
+        padding-left: 35vw;
+        width: 100%;
+    
+    }
+}

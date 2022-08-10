@@ -96,7 +96,7 @@ function ModalEditarContato({ handleGetContacts }) {
               backgroundColor={"#04C45C"}
               marginTop={"5vh"}
               type={"submit"}
-              width={"49.5ch"}
+              width={"100%"}
             />
 
             <FormButton
@@ -105,7 +105,7 @@ function ModalEditarContato({ handleGetContacts }) {
               backgroundColor={"#FB0615A6"}
               marginTop={"0"}
               type={"button"}
-              width={"49.5ch"}
+              width={"100%"}
               onClick={() => handleCloseModal()}
             />
           </div>

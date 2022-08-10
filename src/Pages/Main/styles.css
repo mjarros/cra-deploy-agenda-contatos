@@ -103,9 +103,15 @@
 
 .lista-contatos_div-icones img {
     cursor: pointer;
+
 }
 
 @media (max-width: 1000px) {
+
+    .lista-contatos_div-icones img {
+        padding-right: 2.5vw;
+        
+    }
     .width_padrao {
         min-width: 0;
         word-wrap: break-word;

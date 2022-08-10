@@ -32,6 +32,11 @@
 
 }
 
+.box-cadastro form{
+ 
+    width: 100%;
+}
+
 .box-cadastro h1 {
 
     font-family: Roboto;
@@ -92,4 +97,23 @@
         width: 100%;
     }
     
+}
+
+@media (max-width: 500px) {
+
+    .container-login {
+        width: 100% !important;
+    }
+
+    .imagem-login {
+        display: none;
+    }
+
+    .box-cadastro {
+
+        align-items: center;
+        width: 80%;
+    
+    }
+        
 }

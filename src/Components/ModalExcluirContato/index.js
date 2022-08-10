@@ -58,7 +58,7 @@ function ModalExcluirContato({ handleGetContacts }) {
               backgroundColor={"#04C45C"}
               marginTop={"5vh"}
               type={"submit"}
-              width={"49.5ch"}
+              width={"100%"}
             />
 
             <FormButton
@@ -67,7 +67,7 @@ function ModalExcluirContato({ handleGetContacts }) {
               backgroundColor={"#FB0615A6"}
               marginTop={"0"}
               type={"button"}
-              width={"49.5ch"}
+              width={"100%"}
               onClick={() => handleCloseModal()}
             />
           </div>
