@@ -15,23 +15,26 @@
     justify-items: center;
     
     margin-top: 10vh;
+
+    width: 75%;
+    
 }
 
 .box-header {
     
     display: flex;
     align-items: center;
-    
     justify-content: space-between;
 
     background-color:#F4F0F0;
 
     height: 7vh;
-    width: 70vw;
+    min-width: 100px;
     
     padding: 0 2vw;
 
     margin-top: 3vh;
+
 
 }
 
@@ -45,7 +48,7 @@
 
 .box-contatos {
 
-    width: 70vw;
+    min-width: 100px;
 
     display: flex;
     flex-direction: column;
@@ -85,9 +88,9 @@
 }
 
 .width_padrao {
-    min-width: 150px;
+    min-width: 10vw;
     word-wrap: break-word;
-    max-width: 150px;
+    max-width: 10vw;
         
     display: flex;
     justify-content: left;
@@ -100,4 +103,31 @@
 
 .lista-contatos_div-icones img {
     cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .width_padrao {
+        min-width: 0;
+        word-wrap: break-word;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .margin-adicional {
+        margin-right: 1vw;
+    }
+
+    .box-contatos {
+
+        min-width: 100px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        gap: 2vh;
+    
+        margin-top: 2vh;
+    }
 }

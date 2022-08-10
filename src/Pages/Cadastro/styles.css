@@ -65,3 +65,26 @@
     cursor: pointer;
     color: #1972A8;
 }
+
+@media (max-width: 1000px) {
+
+    .container-cadastro {
+
+        width: 100%;
+    }
+
+    .imagem-cadastro {
+        display: none;
+    }
+
+    .box-cadastro {
+
+        align-items: center;
+        width: 80%;
+    
+    }
+    .container-esquerda {
+        width: 100%;
+    }
+    
+}

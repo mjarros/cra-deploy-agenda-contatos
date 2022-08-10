@@ -10,6 +10,9 @@ import FormContext from "../../Contexts/Form";
 import api from "../../Services/api";
 import { getItem } from "../../Utils/storage";
 import "./styles.css";
+import Table from "@mui/material/Table";
+import TableContainer from "@mui/material/TableContainer";
+import TableBody from "@mui/material/TableBody";
 
 function Main() {
   const {
@@ -66,18 +69,24 @@ function Main() {
           onClick={() => setModalAdd(!modalAdd)}
         />
 
-        <div className="box-header">
-          <span className="width_padrao margin-adicional">Nome</span>
-          <span className="width_padrao margin-adicional">Email</span>
-          <span className="width_padrao">Telefone</span>
-          <span className="width_padrao"></span>
-        </div>
+        <TableContainer>
+          <Table sx={{ minWidth: "550px" }}>
+            <TableBody>
+              <div className="box-header">
+                <span className="width_padrao margin-adicional">Nome</span>
+                <span className="width_padrao margin-adicional">Email</span>
+                <span className="width_padrao">Telefone</span>
+                <span className="width_padrao"></span>
+              </div>
 
-        <div className="box-contatos">
-          {arrayContatos.map((contato) => (
-            <ListarContatos key={contato.id} contato={contato} />
-          ))}
-        </div>
+              <div className="box-contatos">
+                {arrayContatos.map((contato) => (
+                  <ListarContatos key={contato.id} contato={contato} />
+                ))}
+              </div>
+            </TableBody>
+          </Table>
+        </TableContainer>
       </div>
 
       {modalAdd && <ModalNovoContato handleGetContacts={handleGetContacts} />}

@@ -75,3 +75,21 @@
     cursor: pointer;
     color: #1972A8;
 }
+
+@media (max-width: 1000px) {
+
+    .imagem-login {
+        display: none;
+    }
+
+    .box-cadastro {
+
+        align-items: center;
+        width: 80%;
+    
+    }
+    .container-direita {
+        width: 100%;
+    }
+    
+}

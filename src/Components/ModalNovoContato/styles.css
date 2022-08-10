@@ -49,3 +49,12 @@
     margin-bottom: 2vh;
 
 }
+
+@media (max-width: 1000px) {
+
+    .modal-box img {
+        margin-left: 60vw;
+        
+    }
+    
+}
