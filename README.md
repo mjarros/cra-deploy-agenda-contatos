@@ -6,12 +6,14 @@
 Projeto proposto pela [Cubos Academy](https://cubos.academy/), que tem como objetivo criar uma agenda pessoal para o registro de contatos utilizando CRA com integração com uma RestAPI feita em Nodejs.
 
 :desktop_computer: Tecnologias usadas
+
 - [React](https://pt-br.reactjs.org/)
 - [React Router Dom](https://v5.reactrouter.com/)
 - [Axios](https://axios-http.com/)
-
+- [Tostify](https://www.npmjs.com/package/react-toastify)
 
 :running_woman: Como Executar
+
 ```cmd
 npm i
 npm start

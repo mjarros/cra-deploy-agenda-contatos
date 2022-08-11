@@ -5,6 +5,7 @@ import InputLoginECadastro from "../../Components/Inputs-login-cadastro";
 import FormContext from "../../Contexts/Form";
 import api from "../../Services/api";
 import "./styles.css";
+import { toast } from "react-toastify";
 
 function Cadastro() {
   const navigate = useNavigate();
@@ -35,7 +36,9 @@ function Cadastro() {
 
       navigate("/");
     } catch (error) {
-      console.log(error);
+      toast.error(error.message, {
+        position: toast.POSITION.TOP_LEFT,
+      });
     }
   }
 

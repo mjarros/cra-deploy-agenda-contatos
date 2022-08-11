@@ -6,6 +6,8 @@ import FormContext from "../../Contexts/Form";
 import api from "../../Services/api";
 import { setItem } from "../../Utils/storage";
 import "./styles.css";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
   const navigate = useNavigate();
@@ -39,7 +41,9 @@ function Login() {
 
       navigate("/main");
     } catch (error) {
-      console.log(error.message);
+      toast.error(error.message, {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     }
   }
 
