@@ -7,7 +7,6 @@ import api from "../../Services/api";
 import { setItem } from "../../Utils/storage";
 import "./styles.css";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
   const navigate = useNavigate();

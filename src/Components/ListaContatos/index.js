@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { toast } from "react-toastify";
 import lapis from "../../Assets/Images/lapis.svg";
 import lixeira from "../../Assets/Images/lixeira.svg";
 import FormContext from "../../Contexts/Form";
@@ -45,7 +46,9 @@ function ListarContatos({ contato }) {
         telefone: resposta.data.telefone,
       });
     } catch (error) {
-      console.log(error.message);
+      toast.error(error.message, {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     }
   }
 

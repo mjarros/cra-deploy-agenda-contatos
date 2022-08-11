@@ -13,6 +13,7 @@ import "./styles.css";
 import Table from "@mui/material/Table";
 import TableContainer from "@mui/material/TableContainer";
 import TableBody from "@mui/material/TableBody";
+import { toast } from "react-toastify";
 
 function Main() {
   const {
@@ -38,7 +39,9 @@ function Main() {
 
       setArrayContatos(response.data);
     } catch (error) {
-      console.log(error.message);
+      toast.error(error.message, {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     }
   }
 

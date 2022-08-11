@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { toast } from "react-toastify";
 import closeIcon from "../../Assets/Images/close_icon.svg";
 import FormContext from "../../Contexts/Form";
 import api from "../../Services/api";
@@ -50,7 +51,9 @@ function ModalEditarContato({ handleGetContacts }) {
       handleGetContacts();
       handleCloseModal();
     } catch (error) {
-      console.log(error.message);
+      toast.error(error.message, {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     }
   }
 
