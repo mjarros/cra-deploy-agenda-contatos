@@ -1,11 +1,8 @@
-![](https://i.imgur.com/xG74tOh.png)
+## Agenda Pessoal de Contatos | Front-end
 
-## Projeto Cubos Academy | Front-end | Módulo 4 Aula 3
+Projeto desenvolvido durante o curso de Desenvolvimento de Software da [Cubos Academy](https://cubos.academy/), que teve como objetivo criar uma agenda pessoal para o registro de contatos utilizando CRA, que se comunica com uma RESTful API em Node.JS.
 
-:pencil2: Projeto Mini Desafio
-Projeto proposto pela [Cubos Academy](https://cubos.academy/), que tem como objetivo criar uma agenda pessoal para o registro de contatos utilizando CRA com integração com uma RestAPI feita em Nodejs.
-
-:desktop_computer: Tecnologias usadas
+:desktop_computer: Tecnologias usadas neste projeto:
 
 - [React](https://pt-br.reactjs.org/)
 - [React Router Dom](https://v5.reactrouter.com/)
@@ -22,4 +19,4 @@ npm start
 :link: Acessar Localmente
 <a href='https://localhost:3000/' target='_blank'>`https://localhost:3000/`</a>
 
-###### tags: `front-end` `módulo 4` `React` `CSS` `desafio`
+###### tags: `front-end` `React` `CSS` `JSX` `tostify` `axios`
